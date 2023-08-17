@@ -13,7 +13,7 @@ class FormularioController extends Controller {
         $post = Yii::$app->request->post();
         
         return $this->render('formulario', 
-            ['model' => $formularioModel]); // Chamar o método render corretamente
+            ['model' => $formularioModel]); // Chamar o método render corretamenteeee
     }
 }
 
